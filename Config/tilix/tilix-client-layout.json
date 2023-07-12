@@ -1,0 +1,74 @@
+{
+    "child": {
+        "child1": {
+            "child1": {
+                "directory": "",
+                "height": 482,
+                "overrideCommand": "mysql -u root -p1234 -hdb10422 trunk",
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "title": "MariaDB 10.4.22",
+                "type": "Terminal",
+                "uuid": "c23a496b-6620-46e2-abaf-f53bd3b042bd",
+                "width": 923
+            },
+            "child2": {
+                "directory": "",
+                "height": 482,
+                "overrideCommand": "docker-exec.sh dev_web_74_rh trunk symfony\/web\/client",
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "title": "angular",
+                "type": "Terminal",
+                "uuid": "4c983b67-3dbe-4d08-843f-6eef8e03efc1",
+                "width": 923
+            },
+            "orientation": 1,
+            "position": 49,
+            "ratio": 0.499481865284974069,
+            "type": "Paned"
+        },
+        "child2": {
+            "child1": {
+                "directory": "",
+                "height": 482,
+                "overrideCommand": "docker-exec.sh dev_web_74_rh trunk symfony\/web\/vue-app",
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "title": "vue-app",
+                "type": "Terminal",
+                "uuid": "3bef724f-6cca-4d3a-838d-c3e89a19edae",
+                "width": 922
+            },
+            "child2": {
+                "directory": "\/home\/ruchira",
+                "height": 482,
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "title": "oxd lib",
+                "type": "Terminal",
+                "uuid": "c38229a0-133f-4a68-b215-378652d0166a",
+                "width": 922
+            },
+            "orientation": 1,
+            "position": 49,
+            "ratio": 0.499481865284974069,
+            "type": "Paned"
+        },
+        "orientation": 0,
+        "position": 50,
+        "ratio": 0.5,
+        "type": "Paned"
+    },
+    "height": 965,
+    "name": "Client",
+    "synchronizedInput": false,
+    "type": "Session",
+    "uuid": "eca03b8c-bfc9-42ba-9e0f-b8869cd98c6a",
+    "version": "1.0",
+    "width": 1846
+}

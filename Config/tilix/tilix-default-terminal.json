@@ -1,0 +1,19 @@
+{
+    "child": {
+        "directory": "\/home\/ruchira\/test\/trunk",
+        "height": 1006,
+        "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+        "readOnly": false,
+        "synchronizedInput": true,
+        "type": "Terminal",
+        "uuid": "c387684d-e946-4e3a-aa8c-c4c72bb4e276",
+        "width": 1846
+    },
+    "height": 1006,
+    "name": "svn",
+    "synchronizedInput": false,
+    "type": "Session",
+    "uuid": "c45f961d-50c9-41ba-9b6f-4b9627fdc117",
+    "version": "1.0",
+    "width": 1846
+}

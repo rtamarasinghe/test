@@ -1,0 +1,75 @@
+{
+    "child": {
+        "child1": {
+            "child1": {
+                "directory": "\/home\/ruchira",
+                "height": 482,
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "title": "svn",
+                "type": "Terminal",
+                "uuid": "6b948121-4bb7-4dee-b300-29d7dfc8d656",
+                "width": 923
+            },
+            "child2": {
+                "directory": "",
+                "height": 965,
+                "maximized": true,
+                "overrideCommand": "docker-exec.sh dev_web_74_rh trunk symfony",
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "title": "Symfony",
+                "type": "Terminal",
+                "uuid": "fa2394a5-8261-4efa-a801-3e5a6cc010cf",
+                "width": 1846
+            },
+            "orientation": 1,
+            "position": 49,
+            "ratio": 0.499481865284974069,
+            "type": "Paned"
+        },
+        "child2": {
+            "child1": {
+                "directory": "",
+                "height": 482,
+                "overrideCommand": "docker-exec.sh dev_web_74_rh trunk devTools",
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "title": "devTools",
+                "type": "Terminal",
+                "uuid": "87736f7e-8fa0-4cc5-a500-55226d389487",
+                "width": 922
+            },
+            "child2": {
+                "directory": "",
+                "height": 482,
+                "overrideCommand": "docker-exec.sh dev_web_74_rh trunk upgrader",
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "title": "Upgrader",
+                "type": "Terminal",
+                "uuid": "4afedc26-80fa-4b9a-9940-8dedc7c29593",
+                "width": 922
+            },
+            "orientation": 1,
+            "position": 49,
+            "ratio": 0.499481865284974069,
+            "type": "Paned"
+        },
+        "orientation": 0,
+        "position": 50,
+        "ratio": 0.5,
+        "type": "Paned"
+    },
+    "height": 965,
+    "name": "Docker",
+    "synchronizedInput": false,
+    "type": "Session",
+    "uuid": "e245e449-4216-46d4-9be9-692853daf5b8",
+    "version": "1.0",
+    "width": 1846
+}
